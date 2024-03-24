@@ -5,6 +5,7 @@ import java.util.List;
 import in.ashokit.binding.Agent;
 
 public interface AgentService {
+   int a = 1;
 
 	public String upsert(Agent agent);
 	
