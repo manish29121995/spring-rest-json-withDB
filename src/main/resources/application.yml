@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    password: 1995
+    url: jdbc:mysql://localhost:3306/manish_db
+    username: root
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    
+server: 
+ port: 8080
